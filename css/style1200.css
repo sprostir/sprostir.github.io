@@ -6,8 +6,18 @@ body{
     font-size: 15px;
 }
 
+.header__Menu-Logo{
+    display: block;
+    position: absolute;
+    margin-left: 13px;
+    padding-top: 22px;
+    width: 327px;
+    height: 49px;
+}
+
 .header__phoneNumber{
-    margin-left: 0px;
+    margin-top: 54px;
+    float: left;
 }
 
 .header__phoneNumber li{
@@ -22,19 +32,10 @@ body{
     margin-right: 1px;
 }
 
-.header__Menu-Logo{
-    clear: both;
-    margin-left: 13px;
-    margin-top: 10px;
-    display: block;
-    width: 327px;
-    height: 49px;
-    float: left;
-}
-
 .header__menu{
     margin: 0px 0px 0px 360px;
     position: absolute;
+    float: left;
 }
 
 .header__menu li{
