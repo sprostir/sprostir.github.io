@@ -183,6 +183,10 @@ body{
     background-color: #fbbc0c;
 }
 
+.header__navigation-tv li{
+    margin-top: 4px;
+}
+
 .header__navigation-contacts{
     background-color: #35a752;
 }
@@ -235,6 +239,19 @@ body{
     font-weight: bold;
 }
 
+.section__content--paragraph{
+    clear: both;
+    padding-top: 20px;
+}
+
+.section__content--advantages{
+    margin-left: 100px;
+}
+
+.section__content--advantages li{
+    margin-top: 10px;
+}
+
 .section__content--takeUp{
     display: block;
     font-size: 15px;
@@ -248,7 +265,7 @@ body{
     margin-bottom: 70px;
 }
 
-.section__content--listIPTV{  
+.section__content--listIPTV{
     margin-left: 240px;
 }
 
@@ -256,7 +273,7 @@ body{
     float: left;
     display: block;
     padding-top: 15px;
-    margin: 0px 50px 50px 0px;
+    margin: 0px 50px 10px 0px;
     width: 205px;
     height: 30px;
     background-color: #585858;
@@ -266,7 +283,7 @@ body{
 .section__content--listIPTV--download:hover{
     background-color: #fbbc0c;
 }
-    
+
 .section__content--listIPTV--download a{
     color: white;
 }
