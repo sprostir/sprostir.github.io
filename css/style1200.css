@@ -310,7 +310,16 @@ body{
 }
 
 .section__content--contacts{
-    margin-left: 300px;
+    margin-left: 480px;
+}
+
+.section__content--contacts--image{
+    float: left;
+    padding-left: 120px;
+}
+
+.section__content--contacts--paragraph{
+    padding-top: 20px;
 }
 
 footer{
