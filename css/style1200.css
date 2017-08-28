@@ -179,6 +179,10 @@ body{
     background-color: #e24634;
 }
 
+.header__navigation-internet li{
+    margin-top: 4px;
+}
+
 .header__navigation-tv{
     background-color: #fbbc0c;
 }
@@ -285,7 +289,7 @@ body{
     padding-top: 15px;
     margin: 0px 50px 10px 0px;
     width: 205px;
-    height: 30px;
+    height: 35px;
     background-color: #585858;
     text-align: center;
 }
@@ -303,6 +307,10 @@ body{
     margin: 0px auto;
     width: 300px;
     height: 300px;
+}
+
+.section__content--contacts{
+    margin-left: 360px;
 }
 
 footer{
