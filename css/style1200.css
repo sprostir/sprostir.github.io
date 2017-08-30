@@ -213,11 +213,36 @@ body{
 
 .section__index{
     clear: both;
-    padding-top: 80px;
+    padding-top: 70px;
     line-height: 1.5;
-    padding-bottom: 790px;
+    padding-bottom: 820px;
 }
 
+.section__index--important--title{
+    display: block;
+    margin-left: 60px;
+    margin-bottom: 15px;
+    width: 870px;
+    height: 74px;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 30px;
+    background-color: #585858;
+    color: white;
+    border: 1px solid #585858;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.section__content--blockIcon{
+    display: block;
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    background: url(../img/sprite-index.png) -62px 0px no-repeat;
+    margin: 3px 0px 0px -62px;
+}
 
 .section__holiday{
     display: block;
@@ -263,7 +288,7 @@ body{
 
 .section__promotion{
     float: left;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-left: 60px;
     width: 418px;
     height: 340px;
