@@ -1,0 +1,335 @@
+@font-face {
+			font-family: "AgoraSansProRegular";
+			src: url("../fonts/AgoraSansProRegular/AgoraSansProRegular.eot");
+			src: url("../fonts/AgoraSansProRegular/AgoraSansProRegular.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/AgoraSansProRegular/AgoraSansProRegular.woff") format("woff"),
+			url("../fonts/AgoraSansProRegular/AgoraSansProRegular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+}
+
+@font-face {
+			font-family: "AgoraSansProBold";
+			src: url("../fonts/AgoraSansProBold/AgoraSansProBold.eot");
+			src: url("../fonts/AgoraSansProBold/AgoraSansProBold.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/AgoraSansProBold/AgoraSansProBold.woff") format("woff"),
+			url("../fonts/AgoraSansProBold/AgoraSansProBold.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+}
+
+@font-face {
+			font-family: "AgoraSansProItalic";
+			src: url("../fonts/AgoraSansProItalic/AgoraSansProItalic.eot");
+			src: url("../fonts/AgoraSansProItalic/AgoraSansProItalic.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/AgoraSansProItalic/AgoraSansProItalic.woff") format("woff"),
+			url("../fonts/AgoraSansProItalic/AgoraSansProItalic.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+}
+
+@font-face {
+			font-family: "AgoraSansProLight";
+			src: url("../fonts/AgoraSansProLight/AgoraSansProLight.eot");
+			src: url("../fonts/AgoraSansProLight/AgoraSansProLight.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/AgoraSansProLight/AgoraSansProLight.woff") format("woff"),
+			url("../fonts/AgoraSansProLight/AgoraSansProLight.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+}
+
+@font-face {
+			font-family: "AgoraSansProMedium";
+			src: url("../fonts/AgoraSansProMedium/AgoraSansProMedium.eot");
+			src: url("../fonts/AgoraSansProMedium/AgoraSansProMedium.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/AgoraSansProMedium/AgoraSansProMedium.woff") format("woff"),
+			url("../fonts/AgoraSansProMedium/AgoraSansProMedium.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+}
+
+@font-face {
+			font-family: "AgoraSansProBlack";
+			src: url("../fonts/AgoraSansProBlack/AgoraSansProBlack.eot");
+			src: url("../fonts/AgoraSansProBlack/AgoraSansProBlack.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/AgoraSansProBlack/AgoraSansProBlack.woff") format("woff"),
+			url("../fonts/AgoraSansProBlack/AgoraSansProBlack.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+}
+
+@font-face {
+			font-family: "AgoraSansProThin";
+			src: url("../fonts/AgoraSansProThin/AgoraSansProThin.eot");
+			src: url("../fonts/AgoraSansProThin/AgoraSansProThin.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/AgoraSansProThin/AgoraSansProThin.woff") format("woff"),
+			url("../fonts/AgoraSansProThin/AgoraSansProThin.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+}
+
+@font-face {
+			font-family: "AgoraSansProUltraBlack";
+			src: url("../fonts/AgoraSansProUltraBlack/AgoraSansProUltraBlack.eot");
+			src: url("../fonts/AgoraSansProUltraBlack/AgoraSansProUltraBlack.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/AgoraSansProUltraBlack/AgoraSansProUltraBlack.woff") format("woff"),
+			url("../fonts/AgoraSansProUltraBlack/AgoraSansProUltraBlack.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+}
+
+@font-face {
+			font-family: "AgoraSansProXThin";
+			src: url("../fonts/AgoraSansProXThin/AgoraSansProXThin.eot");
+			src: url("../fonts/AgoraSansProXThin/AgoraSansProXThin.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/AgoraSansProXThin/AgoraSansProXThin.woff") format("woff"),
+			url("../fonts/AgoraSansProXThin/AgoraSansProXThin.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+}
+
+@font-face {
+			font-family: "AgoraSansProMediumItalic";
+			src: url("../fonts/AgoraSansProMediumItalic/AgoraSansProMediumItalic.eot");
+			src: url("../fonts/AgoraSansProMediumItalic/AgoraSansProMediumItalic.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/AgoraSansProMediumItalic/AgoraSansProMediumItalic.woff") format("woff"),
+			url("../fonts/AgoraSansProMediumItalic/AgoraSansProMediumItalic.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+}
+
+@font-face {
+			font-family: "AgoraSansProLightItalic";
+			src: url("../fonts/AgoraSansProLightItalic/AgoraSansProLightItalic.eot");
+			src: url("../fonts/AgoraSansProLightItalic/AgoraSansProLightItalic.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/AgoraSansProLightItalic/AgoraSansProLightItalic.woff") format("woff"),
+			url("../fonts/AgoraSansProLightItalic/AgoraSansProLightItalic.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+}
+
+@font-face {
+			font-family: "AgoraSansProBoldItalic";
+			src: url("../fonts/AgoraSansProBoldItalic/AgoraSansProBoldItalic.eot");
+			src: url("../fonts/AgoraSansProBoldItalic/AgoraSansProBoldItalic.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/AgoraSansProBoldItalic/AgoraSansProBoldItalic.woff") format("woff"),
+			url("../fonts/AgoraSansProBoldItalic/AgoraSansProBoldItalic.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+}
+
+@font-face {
+			font-family: "AgoraSansProBlackItalic";
+			src: url("../fonts/AgoraSansProBlackItalic/AgoraSansProBlackItalic.eot");
+			src: url("../fonts/AgoraSansProBlackItalic/AgoraSansProBlackItalic.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/AgoraSansProBlackItalic/AgoraSansProBlackItalic.woff") format("woff"),
+			url("../fonts/AgoraSansProBlackItalic/AgoraSansProBlackItalic.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+}
+
+@font-face {
+			font-family: "AgoraSansProUltraBlackItalic";
+			src: url("../fonts/AgoraSansProUltraBlackItalic/AgoraSansProUltraBlackItalic.eot");
+			src: url("../fonts/AgoraSansProUltraBlackItalic/AgoraSansProUltraBlackItalic.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/AgoraSansProUltraBlackItalic/AgoraSansProUltraBlackItalic.woff") format("woff"),
+			url("../fonts/AgoraSansProUltraBlackItalic/AgoraSansProUltraBlackItalic.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+}
+
+@font-face {
+			font-family: "AgoraSansProXThinItalic";
+			src: url("../fonts/AgoraSansProXThinItalic/AgoraSansProXThinItalic.eot");
+			src: url("../fonts/AgoraSansProXThinItalic/AgoraSansProXThinItalic.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/AgoraSansProXThinItalic/AgoraSansProXThinItalic.woff") format("woff"),
+			url("../fonts/AgoraSansProXThinItalic/AgoraSansProXThinItalic.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+}
+
+@font-face {
+			font-family: "AgoraSansProThinItalic";
+			src: url("../fonts/AgoraSansProThinItalic/AgoraSansProThinItalic.eot");
+			src: url("../fonts/AgoraSansProThinItalic/AgoraSansProThinItalic.eot?#iefix")format("embedded-opentype"),
+			url("../fonts/AgoraSansProThinItalic/AgoraSansProThinItalic.woff") format("woff"),
+			url("../fonts/AgoraSansProThinItalic/AgoraSansProThinItalic.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+}
+
+body{
+    margin: 0px auto;
+    width: 100%;
+    max-width:2400px;
+		font-family: AgoraSansProRegular, arial, tahoma;
+}
+
+header{
+		margin: 0px auto;
+		background-color: #ededed;
+		background-position: top;
+		box-shadow: 0 0 10px rgba(0,0,0,0.5);
+		height: 70px;
+		width: 100%;
+		max-width: 2400px;
+		position: fixed;
+}
+
+.header__Menu-Logo{
+    display: block;
+    margin-left: 18%;
+    padding-top: 5px;
+	  width: 60px;
+	  height: 60px;
+}
+
+.header__menu{
+	  margin-top: -37px;
+	  margin-left: 27%;
+	  position: absolute;
+	  width: 55%;
+	  height: 20px;
+	  float: left;
+}
+
+menu.header__menu : after{
+	  display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+
+menu.header__menu > li{
+	  float: left;
+	  margin-left: 30px;
+	  list-style: none;
+}
+
+menu.header__menu > li > a{
+	  display: block;
+	  text-decoration: none;
+	  color: #333333;
+	  height: 26px;
+}
+
+.header__menu--DownArrow{
+	  margin-left: 5px;
+	  font-size: 12px;
+}
+
+ul.subMenu{
+    display: none;
+    position: absolute;
+    top: 25px;
+	  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+
+ul.subMenu > li {
+    display: block;
+}
+
+ul.subMenu > li > a {
+      padding: 15px 40px 10px 40px;
+      font-family: arial;
+      font-size: 13px;
+	    color: #333333;
+      display: block;
+      background-color: #ededed;
+      width: auto;
+	    height: 20px;
+      text-decoration: none;
+}
+
+ul.subMenu > li > a:hover {
+	   background-color: #b3b3b3;
+	   -webkit-transition: .2s ease-out;
+}
+
+menu.header__menu > li:hover > ul.subMenu {
+	  display: block;
+}
+
+.header__phoneNumber{
+	  display: block;
+	  float: left;
+    margin-top: -54px;
+	  margin-left: 82%;
+	  width: 130px;
+}
+
+.header__phoneNumber li{
+    margin-top: 2px;
+    margin-left: 2px;
+    font-size: 14px;
+}
+
+.header__phoneNumber img{
+    margin-right: 4px;
+}
+
+.top-background{
+    padding-top: 140px;
+    background: url(../img/main01.jpg) no-repeat;
+    background-position: center;
+    height: 638px;
+}
+
+.index__promotion{
+	  margin-top: -70px;
+	  padding-left: 10%;
+	  height: 610px;
+	  background-color: #0c3c48;
+	  color: white;
+	  padding-top: 30px;
+}
+
+.index__promotion article {
+	  margin-top: 10px;
+	  float: left;
+	  margin-left: 12%;
+	  display: block;
+	  height: 270px;
+	  width: 27%;
+	  text-align: justify;
+}
+
+.section__promotion--title{
+	  font-size: 30px;
+	  padding-bottom: 10px;
+	  font-weight: bold;
+	  text-align: left;
+}
+
+.section__promotion--txt a{
+	  text-decoration: none;
+	  color: white;
+	  font-weight: bold;
+}
+
+footer{
+	max-width: 2400px;
+	width: 100%;
+	display: block;
+  height: 80px;
+  font-size: 11px;
+  color: #6c6c6c;
+	background-color: #121415;
+	padding-top: 20px;
+  margin-bottom: 15px;
+}
+
+.footer__description{
+  float: left;
+	margin-left: 27%;
+}
+
+.footer__timetable{
+  float: left;
+  margin-left: 10%;
+}
+
+.footer__phone{
+  float: left;
+  margin-left: 10%;
+}
