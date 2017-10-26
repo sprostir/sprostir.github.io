@@ -154,12 +154,12 @@
 			src: url("../fonts/AgoraSansProThinItalic/AgoraSansProThinItalic.eot?#iefix")format("embedded-opentype"),
 			url("../fonts/AgoraSansProThinItalic/AgoraSansProThinItalic.woff") format("woff"),
 			url("../fonts/AgoraSansProThinItalic/AgoraSansProThinItalic.ttf") format("truetype");
-			font-style: normal;
-			font-weight: normal;
+		font-style: normal;
+		font-weight: normal;
 }
 
 body{
-    margin: 0px auto;
+		margin: 0px auto;
     width: 100%;
     max-width:2400px;
 		font-family: AgoraSansProRegular, arial, tahoma;
@@ -182,6 +182,10 @@ header{
     padding-top: 5px;
 	  width: 60px;
 	  height: 60px;
+}
+
+.header__Menu-Logo img{
+		display: block;
 }
 
 .header__menu{
@@ -230,20 +234,20 @@ ul.subMenu > li {
 }
 
 ul.subMenu > li > a {
-      padding: 15px 40px 10px 40px;
-      font-family: arial;
-      font-size: 13px;
-	    color: #333333;
-      display: block;
-      background-color: #ededed;
-      width: auto;
-	    height: 20px;
-      text-decoration: none;
+    padding: 15px 40px 10px 40px;
+    font-family: arial;
+    font-size: 13px;
+	  color: #333333;
+    display: block;
+    background-color: #ededed;
+    width: auto;
+	  height: 20px;
+    text-decoration: none;
 }
 
 ul.subMenu > li > a:hover {
-	   background-color: #b3b3b3;
-	   -webkit-transition: .2s ease-out;
+	  background-color: #b3b3b3;
+	  -webkit-transition: .2s ease-out;
 }
 
 menu.header__menu > li:hover > ul.subMenu {
@@ -308,28 +312,28 @@ menu.header__menu > li:hover > ul.subMenu {
 }
 
 footer{
-	max-width: 2400px;
-	width: 100%;
-	display: block;
-  height: 80px;
-  font-size: 11px;
-  color: #6c6c6c;
-	background-color: #121415;
-	padding-top: 20px;
-  margin-bottom: 15px;
+		max-width: 2400px;
+		width: 100%;
+	  display: block;
+  	height: 80px;
+  	font-size: 11px;
+  	color: #6c6c6c;
+		background-color: #121415;
+		padding-top: 20px;
+  	margin-bottom: 15px;
 }
 
 .footer__description{
-  float: left;
-	margin-left: 27%;
+  	float: left;
+		margin-left: 27%;
 }
 
 .footer__timetable{
-  float: left;
-  margin-left: 10%;
+  	float: left;
+  	margin-left: 10%;
 }
 
 .footer__phone{
-  float: left;
-  margin-left: 10%;
+  	float: left;
+  	margin-left: 10%;
 }
