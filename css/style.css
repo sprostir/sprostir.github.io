@@ -159,14 +159,13 @@
 }
 
 body{
-		margin: 0px auto;
     width: 100%;
     max-width:2400px;
 		font-family: AgoraSansProRegular, arial, tahoma;
+	  margin-top: 70px;
 }
 
 header{
-		margin: 0px auto;
 		background-color: #ededed;
 		background-position: top;
 		box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -174,25 +173,23 @@ header{
 		width: 100%;
 		max-width: 2400px;
 		position: fixed;
+	  z-index: 11;
+	  margin-top: -70px;
 }
 
-.header__Menu-Logo{
+.header__Menu--Logo{
     display: block;
-    margin-left: 18%;
+    margin-left: 17%;
     padding-top: 5px;
 	  width: 60px;
 	  height: 60px;
 }
 
-.header__Menu-Logo img{
-		display: block;
-}
-
 .header__menu{
 	  margin-top: -37px;
-	  margin-left: 27%;
+	  margin-left: 22%;
 	  position: absolute;
-	  width: 55%;
+	  width: 49%;
 	  height: 20px;
 	  float: left;
 }
@@ -217,9 +214,14 @@ menu.header__menu > li > a{
 	  height: 26px;
 }
 
+menu.header__menu > li > a:hover{
+    border-bottom: 2px solid #ff0202;
+}
+
 .header__menu--DownArrow{
 	  margin-left: 5px;
-	  font-size: 12px;
+	  font-size: 13px;
+	  font-weight: bold;
 }
 
 ul.subMenu{
@@ -256,9 +258,9 @@ menu.header__menu > li:hover > ul.subMenu {
 
 .header__phoneNumber{
 	  display: block;
-	  float: left;
+	  float: right;
     margin-top: -54px;
-	  margin-left: 82%;
+	  margin-right: 17%;
 	  width: 130px;
 }
 
@@ -273,14 +275,15 @@ menu.header__menu > li:hover > ul.subMenu {
 }
 
 .top-background{
-    padding-top: 140px;
     background: url(../img/main01.jpg) no-repeat;
     background-position: center;
     height: 638px;
+	  position: relative;
+	  z-index: 10;
+	  box-shadow: 3px 3px 20px rgba(0,0,0,1);
 }
 
 .index__promotion{
-	  margin-top: -70px;
 	  padding-left: 10%;
 	  height: 610px;
 	  background-color: #0c3c48;
@@ -320,7 +323,6 @@ footer{
   	color: #6c6c6c;
 		background-color: #121415;
 		padding-top: 20px;
-  	margin-bottom: 15px;
 }
 
 .footer__description{
