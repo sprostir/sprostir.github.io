@@ -161,18 +161,18 @@
 body{
 	   
     width: 100%;
-    max-width: 1200px;
+    max-width: 2000px;
 		font-family: AgoraSansProRegular, arial, tahoma;
 	  margin: 70px auto 0px auto;
 }
 
 header{
-		background-color: #d9e39c;
+		background-color: #fef3e1;
 		background-position: top;
 		box-shadow: 0 0 10px rgba(0,0,0,0.5);
 		height: 70px;
 		width: 100%;
-		max-width: 1200px;
+		max-width: 2000px;
 		position: fixed;
 	  z-index: 11;
 	  margin-top: -70px;
@@ -182,7 +182,7 @@ header{
     display: block;
     margin-left: 17%;
     padding-top: 5px;
-	  width: 60px;
+	  width: 81px;
 	  height: 60px;
 }
 
@@ -216,7 +216,7 @@ menu.header__menu > li > a{
 }
 
 menu.header__menu > li > a:hover{
-    border-bottom: 2px solid #ff0202;
+    border-bottom: 2px solid #e63c23;
 }
 
 .header__menu--DownArrow{
@@ -242,14 +242,14 @@ ul.subMenu > li > a {
     font-size: 13px;
 	  color: #333333;
     display: block;
-    background-color: #ededed;
+    background-color: #fef3e1;
     width: auto;
 	  height: 20px;
     text-decoration: none;
 }
 
 ul.subMenu > li > a:hover {
-	  background-color: #b3b3b3;
+	  background-color: #d9e39c;
 	  -webkit-transition: .2s ease-out;
 }
 
@@ -278,7 +278,7 @@ menu.header__menu > li:hover > ul.subMenu {
 .top-background{
     background: url(../img/main01.jpg) no-repeat;
     background-position: center;
-    height: 638px;
+    height: 1000px;
 	  position: relative;
 	  z-index: 10;
 	  box-shadow: 3px 3px 20px rgba(0,0,0,1);
@@ -316,13 +316,13 @@ menu.header__menu > li:hover > ul.subMenu {
 }
 
 footer{
-		max-width: 1200px;
+		max-width: 2000px;
 		width: 100%;
 	  display: block;
   	height: 80px;
   	font-size: 11px;
-  	color: #68b436;
-		background-color: #1c310e;
+  	color: #838a7f;
+		background-color: #0c1705;
 		padding-top: 20px;
 }
 
