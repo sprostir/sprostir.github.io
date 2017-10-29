@@ -4,17 +4,19 @@
     <meta charset="utf-8">
     <title>SIMnet - Інтернет і кабельне телебачення в м.Городенка</title>
     <link rel="stylesheet" href="css/reset.css">
-	<!-- <link rel="stylesheet" href="css/style480px.css">
-  <link rel="stylesheet" href="css/style768px.css">
-  <link rel="stylesheet" href="css/style960px.css">
-	<link rel="stylesheet" href="css/style1200px.css"> -->
-	<link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1200px.css">
+    <link rel="stylesheet" href="css/style960px.css">
+    <link rel="stylesheet" href="css/style768px.css">
+    <link rel="stylesheet" href="css/style480px.css">
   </head>
   <body>
     <header>
+        <div class="header__menu--center">
+
           <h1> <a href="index.html" class="header__Menu--Logo"><img src="img/logo.png" alt="SIMnet"/></a> </h1>
           <menu class="header__menu">
-              <li><a href="index.html">Головна<span class="header__menu--DownArrow">˅</span></a>
+              <li class="header__menu--firstMenu"><a href="index.html">Головна<span class="header__menu--DownArrow">˅</span></a>
                 <ul class="subMenu">
                       <li><a href=#index-freePay>Безкоштовний платіж</a></li>
                       <li><a href=#index-yearDiscount>Акція "11+1"</a></li>
@@ -33,13 +35,14 @@
               </li>
               <li><a href="#">Телебачення</a></li>
               <li><a href="#">Контакти</a></li>
-              <li><a href="#">Особистий кабінет</a></li>
+              <li class="header__menu--lastMenu"><a href="#">Особистий кабінет</a></li>
           </menu>
           <ul class="header__phoneNumber">
               <li><img src="img/kyivstar.png" alt="K"/><span>097 900 00 00</span></li>
               <li><img src="img/kyivstar.png" alt="K"/><span>097 812 00 00</span></li>
               <li><img src="img/vodafone.png" alt="V"/><span>099 495 00 00</span></li>
           </ul>
+        </div>
     </header>
     <div class="top-background"></div>
     <section class="index__promotion">
