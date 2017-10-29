@@ -159,19 +159,20 @@
 }
 
 body{
+	   
     width: 100%;
-    max-width:2400px;
+    max-width: 1200px;
 		font-family: AgoraSansProRegular, arial, tahoma;
-	  margin-top: 70px;
+	  margin: 70px auto 0px auto;
 }
 
 header{
-		background-color: #ededed;
+		background-color: #d9e39c;
 		background-position: top;
 		box-shadow: 0 0 10px rgba(0,0,0,0.5);
 		height: 70px;
 		width: 100%;
-		max-width: 2400px;
+		max-width: 1200px;
 		position: fixed;
 	  z-index: 11;
 	  margin-top: -70px;
@@ -286,7 +287,7 @@ menu.header__menu > li:hover > ul.subMenu {
 .index__promotion{
 	  padding-left: 10%;
 	  height: 610px;
-	  background-color: #0c3c48;
+	  background-color: #68b436;
 	  color: white;
 	  padding-top: 30px;
 }
@@ -315,13 +316,13 @@ menu.header__menu > li:hover > ul.subMenu {
 }
 
 footer{
-		max-width: 2400px;
+		max-width: 1200px;
 		width: 100%;
 	  display: block;
   	height: 80px;
   	font-size: 11px;
-  	color: #6c6c6c;
-		background-color: #121415;
+  	color: #68b436;
+		background-color: #1c310e;
 		padding-top: 20px;
 }
 
