@@ -1,3 +1,4 @@
+
 @font-face {
 			font-family: "AgoraSansProRegular";
 			src: url("../fonts/AgoraSansProRegular/AgoraSansProRegular.eot");
@@ -178,19 +179,22 @@ header{
 	  margin-top: -70px;
 }
 
+.header__menu--center{
+	  width: 978px;
+	  margin: 0px auto;
+}
+
 .header__Menu--Logo{
     display: block;
-    margin-left: 17%;
     padding-top: 5px;
 	  width: 81px;
 	  height: 60px;
+	  float: left;
 }
 
 .header__menu{
-	  margin-top: -37px;
-	  margin-left: 22%;
-	  position: absolute;
-	  width: 49%;
+	  margin-top: 27px;
+	  margin-left: 70px;
 	  height: 20px;
 	  float: left;
 }
@@ -226,6 +230,7 @@ menu.header__menu > li > a:hover{
 }
 
 ul.subMenu{
+	  margin-top: 28px;
     display: none;
     position: absolute;
     top: 25px;
@@ -259,9 +264,9 @@ menu.header__menu > li:hover > ul.subMenu {
 
 .header__phoneNumber{
 	  display: block;
-	  float: right;
-    margin-top: -54px;
-	  margin-right: 17%;
+	  float: left;
+    margin-top: 10px;
+	  margin-left: 120px;
 	  width: 130px;
 }
 

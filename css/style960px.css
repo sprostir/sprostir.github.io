@@ -1,0 +1,36 @@
+@media (max-width: 960px) {
+
+.header__menu--center{
+	  width: 720px;
+}
+
+.header__menu{
+	  margin-left: 10px;
+	 
+}
+
+menu.header__menu > li{
+	  margin-left: 15px;
+	  font-size: 15px;
+}
+
+.header__menu--DownArrow{
+	  margin-left: 3px;
+	  font-size: 10px;
+}
+
+.header__phoneNumber{
+	  margin-top: 15px;
+	  margin-left: 30px;
+}
+
+.header__phoneNumber li{
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+.top-background{
+    margin-left: -310px;
+}
+
+}

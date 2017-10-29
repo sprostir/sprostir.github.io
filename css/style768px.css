@@ -1,0 +1,79 @@
+@media (max-width: 768px) {
+
+header{
+		height: 70px;
+		position: relative;
+	  margin-top: -70px;
+}	
+.header__menu--center{
+	  width: 320px;
+}
+
+.header__Menu--Logo{
+	  margin-left: 20px;	
+}
+	
+.header__menu{
+	  margin-top: 130px;
+	  position: absolute;
+	  margin-left: 10px;
+	 
+}
+
+menu.header__menu > li{
+	  margin-left: 0px;
+	  font-size: 15px;
+	  clear: both;
+	  padding-top: 15px;
+	  width: 300px;
+	  height: 31px;
+	  background-color: rgba(254,243,225,.6);
+	  text-align: center;
+	  font-size: 18px;
+	  border-top: solid 1px rgba(100,0,0,0.2);
+	  border-bottom: solid 2px rgba(254,243,225,.6);	  
+}
+
+	menu.header__menu > li:hover{
+		border-bottom: solid 2px rgba(255,255,255,0.9);
+		background-color: rgba(254,243,225,0.9);
+	}
+
+menu.header__menu > li > a:hover{
+    border-bottom: none;
+	  text-shadow: 0px 0px 10px rgba(255,255,255,255);
+}
+
+ul.subMenu{
+	  margin-top: -20px;
+    position: relative;
+}
+	
+.header__menu--firstMenu{
+		border-radius: 20px 20px 0px 0px;
+}
+
+.header__menu--lastMenu{
+		border-radius: 0px 0px 20px 20px;
+}	
+
+.header__menu--DownArrow{
+	  margin-left: 5px;
+	  font-size: 13px;
+}
+
+.header__phoneNumber{
+	  margin-top: 15px;
+	  margin-left: 89px;
+}
+
+.header__phoneNumber li{
+    margin-top: 0px;
+    font-size: 15px;
+}
+
+.top-background{
+    margin-left: -260px;
+}
+
+}

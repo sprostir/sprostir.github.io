@@ -1,0 +1,20 @@
+@media (max-width: 480px) {
+
+.header__menu--center{
+	  width: 300px;
+}
+
+.header__Menu--Logo{
+	  margin-left: 40px;
+}
+
+.header__menu{
+	  margin-left: 0px;
+}
+
+.header__phoneNumber{
+	  margin-top: 15px;
+	  margin-left: 30px;
+}
+
+}
