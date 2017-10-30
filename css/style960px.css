@@ -33,4 +33,35 @@ menu.header__menu > li{
     margin-left: -310px;
 }
 
+.index__promotion{
+	  height: 540px;
+}
+
+.index__promotion--center{
+	  width: 700px;
+}
+
+.index__promotion article {
+	  font-size: 13px;
+	  margin-left: 40px;
+	  margin-right: 40px;
+	  width: 270px;
+}
+
+.section__promotion--title{
+	  font-size: 24px;
+}
+
+.footer--center{
+	   width: 550px;
+}
+
+.footer__timetable{
+  	margin-left: 70px;
+}
+
+.footer__phone{
+  	margin-left: 75px;
+}
+
 }

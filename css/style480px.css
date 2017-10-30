@@ -17,4 +17,17 @@
 	  margin-left: 30px;
 }
 
+.index__promotion{
+	  height: 1060px;
+}
+
+.index__promotion--center{
+	  width: 300px;
+}
+
+.index__promotion article {
+	  width: 300px;
+	  height: 250px;
+}
+	
 }

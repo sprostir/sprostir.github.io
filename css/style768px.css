@@ -76,4 +76,47 @@ ul.subMenu{
     margin-left: -260px;
 }
 
+.index__promotion{
+	  height: 870px;
+}
+
+.index__promotion--center{
+	  width: 400px;
+}
+
+.index__promotion article {
+	  font-size: 15px;
+	  margin-left: 0px;
+	  margin-right: 0px;
+	  width: 400px;
+	  height: 200px;
+}
+
+.section__promotion--title{
+	  font-size: 26px;
+}
+
+footer{
+	   height: 120px;	
+}
+
+.footer__description{
+     margin-left: 85px;
+}
+	
+.footer--center{
+	   width: 380px;
+}
+
+.footer__timetable{
+	  clear: both;
+  	margin: 20px 0px 10px 52px;
+}
+
+.footer__phone{
+  	margin: 20px 0px 10px 40px;
+}
+
+
+
 }
