@@ -1,45 +1,18 @@
 @media (max-width: 1200px) {
 
-.header__menu--center{
-	  width: 860px;
+.internet__tariffTableMainRow td{
+	  width: 233px;
+}
+	
+.section__diagnostics--technology img{
+    margin: 0px auto;
 }
 
-.header__menu{
-	  margin-left: 30px;
-	 
-}
-
-menu.header__menu > li{
-	  margin-left: 25px;
-}
-
-.header__phoneNumber{
-	  margin-left: 67px;
-}
-
-.top-background{
-    margin-left: -310px;
-}
-
-.index__promotion{
-	  height: 560px;
-	  padding-top: 30px;
-}
-
-.index__promotion--center{
-	  width: 800px;
-}
-
-.index__promotion article {
-	  font-size: 14px;
-	  margin-left: 50px;
-	  margin-right: 50px;
-	  height: 230px;
-	  width: 300px;
-}
-
-.section__promotion--title{
-	  font-size: 26px;
+.section__createConnection--video iframe{
+	display: block;
+    margin: 0px auto;
+	width: 350px;
+	height: 195px;
 }
 
 }
