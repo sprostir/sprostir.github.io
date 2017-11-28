@@ -562,8 +562,9 @@ menu.header__menu > li:hover > ul.subMenu {
 
 
 .section__errorConnection--title{
+	  margin-top: 20px;
 	  font-size: 30px;
-	  padding-bottom: 10px;
+	  padding-bottom: 5px;
 	  font-weight: bold;
 	  text-align: left;
 }
