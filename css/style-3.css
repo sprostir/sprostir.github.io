@@ -492,12 +492,6 @@ menu.header__menu > li:hover > ul.subMenu {
 	  font-size: 15px;
 }
 
-.section__diagnostics--technology ul a{
-	  text-decoration: none;
-	  color: #2b2a26;
-	  font-weight: bold;
-}
-
 .section__createConnection--parallax{
 	  padding-top: 140px;
 	  padding-bottom: 140px;
@@ -554,13 +548,6 @@ menu.header__menu > li:hover > ul.subMenu {
 	  text-align: justify;
 }
 
-.internet__errorConnection a{
-	  text-decoration: none;
-	  color: #2b2a26;
-	  font-weight: bold;
-}
-
-
 .section__errorConnection--title{
 	  font-size: 30px;
 	  padding-bottom: 10px;
@@ -584,21 +571,13 @@ menu.header__menu > li:hover > ul.subMenu {
 }
 
 .section__tv--title{
-	  font-size: 30px; 
-	  padding-bottom: 10px;
+	  font-size: 30px;
+	  padding-top: 20px;
+	  padding-bottom: 20px;
 	  font-weight: bold;
 	  text-align: left;
 }
 
-.section__tv p{
-	  margin-top: 20px;
-}
-
-.section__tv a{
-	  text-decoration: none;
-	  color: #2b2a26;
-	  font-weight: bold;
-}
 
 .section__contacts--parallax{
 	  height: 1000px;
